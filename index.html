@@ -8,9 +8,68 @@
   </head>
   <body>
     <div id="layout-grid">
-      <header>
+      <header id="header">
         <h1 id="titulo">SENAIBUSTER</h1>
+        <div class="div-header">
+          <h2 class="option">Ver filmes</h2>
+          <h2 class="option">Alugar</h2>
+        </div>
       </header>
+
+      <main id="main-grid">
+        <div class="title-div">
+          <h2 id="title-body">Listagem de Filmes</h2>
+        </div>
+        <div class="list-body">
+          <div class="div-select">
+            <label class="label-text" for="genero">Filtre por:</label>
+            <div id="custam-select">
+              <select name="genero" id="genero-select">
+                <option value="no-value">Genero</option>
+                <option value="terror">Terror</option>
+                <option value="acao">Acao</option>
+                <option value="infantil">Infantil</option>
+                <option value="suspense">Suspense</option>
+                <option value="aventura">Aventura</option>
+              </select>
+            </div>
+            <div id="custam-select">
+              <select name="genero" id="genero-select">
+                <option value="no-value">Ano</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2021">2020</option>
+                <option value="2021">2021</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="div-list">
+            <table>
+              <thead id="table-head">
+                <tr id="border-tavble">
+                  <th scope="col" class="title-table">Nome</th>
+                  <th scope="col" class="title-table">Genero</th>
+                  <th scope="col" class="title-table">Duracao</th>
+                  <th scope="col" class="title-table">Ano</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>

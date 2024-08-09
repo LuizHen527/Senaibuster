@@ -3,31 +3,143 @@
     src: url(./assets/Anton,Archivo/Anton/Anton-Regular.ttf);
 }
 
+@font-face {
+    font-family: Archivo;
+    src: url(./assets/Anton,Archivo/Archivo/Archivo-VariableFont_wdth\,wght.ttf)
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.div-select {
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid #F5F7F8; */
+    width: 285px;
+}
+
+.label-text {
+    font-family: Archivo;
+    font-size: 20;
+    color: #F5F7F8;
+}
+
+.div-list {
+    width: 50%;
+    height: auto;
+    
+   
+}
+
+/* th {
+    text-align: left;
+    width: 100px;   
+}
+
+th {
+    font-family: Archivo;
+} */
+
+.list-body {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    /* background-color: #F5F7F8; */
+    /* justify-content: space-between; */
+}
+
+.title-table {
+    font-family: Archivo;
+    font-size: 16px;
+}
+
+table {
+    width: 50%;
+}
+
+#table-head{
+    color: #FFBF01;
+    border-bottom: 1px solid #FFBF01;
+}
+
+tr{
+    
+}
+
+#title-body {
+    font-family: Archivo;
+    font-size: 48px;
+    color: #F5F7F8;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.title-div {
+    margin-top: 48px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.div-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.option {
+    font-family: Archivo;
+    font-size: 40px;
+    color: #F5F7F8;
+}
+
 #titulo {
     font-family: Anton;
     color: #FFBF01;
+    font-size: 100px;
 }
 
 body {
+    display: flex;
     background-color: #0D3FA9;
- 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #layout-grid {
-    margin: 10px;
-    width: 100%;
-    padding: 15px;
+    margin-top: 25px;
+    width: 96%;
+    height: 500px;
     border: #FFBF01 5px solid;
 
 }
 
 header {
     padding: 5px;
-    border: #FFBF01 5px solid;
+    border-bottom: #FFBF01 5px solid;
+}
+
+#genero-select{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 25px;
+
+}
+
+#custam-select{
+    width: 100%;
+    /* border: 1px solid sandybrown; */
+    margin-bottom: 10px;
 }
